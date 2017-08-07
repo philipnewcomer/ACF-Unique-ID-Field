@@ -1,0 +1,19 @@
+{
+	"name": "philipnewcomer/acf-unique-id-field",
+	"description": "An ACF field which generates a unique ID value, intended for use in ACF Repeaters",
+	"license": "GPLv2",
+	"authors": [
+		{
+			"name": "Philip Newcomer",
+			"email": "contact@philipnewcomer.net",
+			"homepage": "http://philipnewcomer.net"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/philipnewcomer/ACF-Unique-ID-Field/issues",
+		"source": "https://github.com/philipnewcomer/ACF-Unique-ID-Field"
+	},
+	"autoload": {
+		"files": [ "src/init.php" ]
+	}
+}
