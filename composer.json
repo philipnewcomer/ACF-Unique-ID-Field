@@ -1,7 +1,7 @@
 {
 	"name": "philipnewcomer/acf-unique-id-field",
 	"description": "An ACF field which generates a unique ID value, intended for use in ACF Repeaters",
-	"license": "GPLv2",
+	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
 			"name": "Philip Newcomer",
