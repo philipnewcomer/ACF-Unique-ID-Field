@@ -12,7 +12,7 @@ composer require philipnewcomer/acf-unique-id-field
 
 ## Usage
 
-Select the "Unique ID" field type when using the ACF GUI. When editing a post, unique IDs will be generated on the initial save.
+Select the "Unique ID" field type when using the ACF GUI. When creating a post, unique IDs will be automatically generated and immediately available.
 
 ## Notes
 
