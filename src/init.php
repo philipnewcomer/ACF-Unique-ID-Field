@@ -2,7 +2,7 @@
 
 namespace PhilipNewcomer\ACF_Unique_ID_Field;
 
-add_action( 'acf/include_field_types', function() {
+\add_action( 'acf/include_field_types', function() {
 
 	if ( ! class_exists( 'acf_field' ) ) {
 		return;
