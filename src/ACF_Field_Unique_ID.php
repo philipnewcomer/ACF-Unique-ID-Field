@@ -23,7 +23,7 @@ class ACF_Field_Unique_ID extends acf_field {
 	}
 
 	/**
-	 * Initializes the field.
+	 * Initialize the field.
 	 */
 	public function __construct() {
 		$this->name     = 'unique_id';
@@ -34,12 +34,13 @@ class ACF_Field_Unique_ID extends acf_field {
 	}
 
 	/**
-	 * Renders the HTML field.
+	 * Render the HTML field.
 	 *
 	 * @param array $field The field data.
 	 */
 	public function render_field( $field ) {
-		printf( '<input type="text" name="%s" value="%s" readonly>',
+		printf(
+			'<input type="text" name="%s" value="%s" readonly>',
 			esc_attr( $field['name'] ),
 			esc_attr( $field['value'] )
 		);
@@ -47,8 +48,6 @@ class ACF_Field_Unique_ID extends acf_field {
 
 	/**
 	 * Define the unique ID if one does not already exist.
-	 *
-	 * @internal This filter is applied to the value before it is saved to the database.
 	 *
 	 * @param string $value   The field value.
 	 * @param int    $post_id The post ID.
