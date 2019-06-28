@@ -2,7 +2,25 @@
 
 namespace PhilipNewcomer\ACF_Unique_ID_Field;
 
-class ACF_Field_Unique_ID extends \acf_field {
+use acf_field;
+
+class ACF_Field_Unique_ID extends acf_field {
+
+	/**
+	 * Initialize the class.
+	 */
+	public static function init() {
+		add_action(
+			'acf/include_field_types',
+			function() {
+				if ( ! class_exists( 'acf_field' ) ) {
+					return;
+				}
+
+				new static();
+			}
+		);
+	}
 
 	/**
 	 * Initializes the field.
