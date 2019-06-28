@@ -12,6 +12,12 @@ composer require philipnewcomer/acf-unique-id-field
 
 ## Usage
 
+Call the `ACF_Field_Unique_ID` static method `init()` to activate it.
+
+```php
+PhilipNewcomer\ACF_Unique_ID_Field\ACF_Field_Unique_ID::init();
+```
+
 Select the "Unique ID" field type when using the ACF GUI. When editing a post, unique IDs will be generated on the initial save.
 
 ## Notes

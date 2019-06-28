@@ -14,6 +14,8 @@
 		"source": "https://github.com/philipnewcomer/ACF-Unique-ID-Field"
 	},
 	"autoload": {
-		"files": [ "src/init.php" ]
+		"psr-4": {
+			"PhilipNewcomer\\ACF_Unique_ID_Field\\": "src/"
+		}
 	}
 }
