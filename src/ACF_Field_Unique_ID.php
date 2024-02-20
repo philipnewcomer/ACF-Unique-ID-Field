@@ -63,7 +63,6 @@ class ACF_Field_Unique_ID extends acf_field {
                 '<style scoped>.acf-field-%s{display:none;}</style>',
                 explode('_', $field['key'])[1],
             );
-            return;
         }
 
         printf(
